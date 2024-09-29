@@ -1,0 +1,97 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+.navbar-brand {
+    padding: 5px;
+}
+
+.icon256 {
+    height: 256px;
+}
+
+/* CLASSES ESPECIFICAS DA APLICAÇÃO */
+.mt-0 {
+    margin-top: 0 !important;
+}
+
+.mt-1 {
+    margin-top: 0.25rem !important;
+}
+
+.mt-2 {
+    margin-top: 0.50rem !important;
+}
+
+.mt-3 {
+    margin-top: 0.75rem !important;
+}
+
+.menu-item {
+    text-align: center;
+}
+.menu-item span {
+    font-size: 200%;
+}
+
+/* Autocomplete */
+.autocomplete .autocomplete-dropdown {
+    overflow-y: auto;
+    z-index: 1000;
+    display: none;
+    min-width: 160px;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+}
+
+.autocomplete .autocomplete-dropdown .autocomplete-dropdown-item {
+    padding: 5px 12px;
+}
+
+.autocomplete .autocomplete-dropdown .autocomplete-dropdown-item:hover {
+    color: white;
+    background-color: Highlight;
+    cursor: pointer;
+}
